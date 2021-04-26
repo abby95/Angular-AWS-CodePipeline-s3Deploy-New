@@ -4,3 +4,10 @@ body {
   overflow: hidden;
   background-color: #eeebdd;
 }
+* {
+  font-family: "Lato";
+}
+
+*:focus {
+  outline: none !important;
+}

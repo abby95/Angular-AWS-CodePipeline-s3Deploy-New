@@ -4,23 +4,66 @@
 
 .TextHeader {
   font-weight: 900 !important;
-  font-size: 3rem;
-  background-color: #903749;
+  //   font-size: 2.5rem;
+  background-color: #2b2e4a;
   color: #eeebdd;
+  height: 90px;
+  //   margin-bottom: -10px;
+  padding: 10px;
+}
+.BrandName {
+  font-size: 3vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer {
   position: absolute;
   bottom: 0;
   left: 0;
-  background-color: #53354a;
+  background-color: #e84545;
   color: #eeebdd;
   width: 100vw;
-  padding: 10px;
+  padding: 5px;
   font-weight: 700;
-  text-align: right;
+  text-align: center;
+  height: 30px;
 }
 
-.para {
-  padding: 2rem;
+// .navlink {
+//   border-bottom: 1px solid #2b2e4a;
+// }
+.navbar {
+  //   background-color: #53354a;
+  font-weight: 400;
+  font-size: 1.5vw;
+  margin-top: 40px;
+}
+
+.navlink:hover {
+  color: #e84545;
+  cursor: pointer;
+  font-weight: 600;
+  border-bottom: 1px solid #e84545;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #e84545;
+  color: #eeebdd;
+  width: 100vw;
+  padding: 5px;
+  font-weight: 700;
+  text-align: center;
+  height: 30px;
+}
+
+.active {
+  color: #e84545;
+  font-weight: 600;
+  //   font-size: 18px;
 }
