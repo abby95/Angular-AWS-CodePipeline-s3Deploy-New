@@ -1,0 +1,26 @@
+* {
+  font-family: "Lato";
+}
+
+.TextHeader {
+  font-weight: 900 !important;
+  font-size: 3rem;
+  background-color: #903749;
+  color: #eeebdd;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #53354a;
+  color: #eeebdd;
+  width: 100vw;
+  padding: 10px;
+  font-weight: 700;
+  text-align: right;
+}
+
+.para {
+  padding: 2rem;
+}
